@@ -1,0 +1,631 @@
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:2.000em; /* 32px/16=2.000em */
+	font-weight:600;
+	letter-spacing:0.05em;
+	color: #ffffff;	
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.87em; /* 30px/16=1.875em */
+	font-weight:600;
+	letter-spacing:0.05em;
+	color: #000000
+	}
+	
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.875em; /* 14px/16=0.875em */
+	font-weight:600;
+	} 
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.375em;/* 22px/16=1.375em */
+	color: #333333;
+} 
+	
+a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+}
+
+a:hover, a:focus {
+	text-decoration:none;	
+}	
+	
+.jumbotron {
+	padding-top:0px;
+	margin-top:0px;
+	background-color: #33B4D7;
+}
+	
+/*Sidebar second region css */	
+	
+.region-sidebar-second {
+	width: 100%;
+	background-color: #f1f1f1;
+	padding: 15px;
+	margin: 20px 0px 20px 0px;	 
+}
+	
+.region-sidebar-second .field-content img {
+	display: block;
+	padding-top:10px;	
+	padding-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	max-width: 100%;  
+	height: auto;	
+}
+
+.region-sidebar-second .field-content p {
+	/* font-size:1.125em; */ /* 1px/16=1.125emem */
+}
+/*Sidebar second region css */	
+	
+	
+.region-view-all-posts {
+	float:right;
+}
+	
+.view-latest-blog-post .view-content {
+	font-size: 0.87em;
+}	
+	
+	
+/*Top navigation css */	
+
+.navbar-btn {
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+	
+#navbar{
+	background-color: #f1f1f1;	
+}
+
+#navbar a{
+	color: #ffffff;	
+	background-color: #33b4d7;
+	border-left-style:solid;
+	border-color:#f1f1f1;
+	text-align:left;
+}
+	
+#navbar a:hover, a:focus {
+	color: #ffffff;	
+	background-color: #6fcde2;	
+}
+	
+.navbar-brand {
+	background-color: #f1f1f1 !important;	
+}	
+	
+#navbar .leaf .active {
+ color: #ffffff;	
+}
+	
+.navbar-header {
+	background-color: #f1f1f1;
+}	
+
+/*End top navigation css */	
+			
+	
+/*node css */		
+	
+.page-header {
+	position:relative;
+	top:39px;
+	padding: 10px 0 10px 0;
+	background-color: #33b4d7;		
+}	
+	
+.field-name-body .field-items p {
+	font-size:1.2em;
+	color: #333333;
+	line-height: 1.5em;
+	margin: 20px;
+	text-align: justify;
+}	
+
+.field-name-body .field-items a:hover, a:focus {
+	color: #333399;	
+}	
+
+.node-article  {
+	text-align: center;
+	position: relative;
+	top:-52px;
+	height:100%;	
+	border: 1px solid #e0e0e0;	
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0.04);
+	padding: 15px 0 10px 0;
+}	
+
+.node-article .field ul,
+.node-article .field ol {
+	text-align:left;
+	margin-left:1em;
+}
+.node-submitted {
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;/* 16px/16=1em */
+	color: #333333;
+	position: relative;
+	top:80px;	
+	padding-bottom:20px;
+	-webkit-padding-after: 0px;
+}
+
+/*end node css */	
+	
+	
+ .view-all-posts {
+	position: relative;
+	top:52px
+} 
+	
+/*node teaser css */	
+
+.node-teaser  {
+	text-align: center;
+	position: relative;
+	height:100%;	
+	border: 1px solid #e0e0e0;	
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0.04);
+	padding: 15px 0 10px 0;
+	margin: 20px 0 20px 0;
+}
+
+.node-teaser img {
+	display:none;
+	position: relative;
+	top:-115px;
+	z-index: 2;
+	margin: auto;
+	width: 73px;
+	height: 73px;
+	border: 8px solid white;
+	line-height: 22px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.node-teaser h2 {
+	position:relative;
+	top:-36px;
+	background-color: #33b4d7;
+	padding: 10px 0 10px 0;
+}
+.node-teaser h2:hover {
+	background-color: #6fcde2;
+}
+
+.node-teaser .field-items p {
+	position:relative;
+	top:10px;
+	font-size:1.2em;
+	color: #333333;
+	line-height: 1.5em;
+	margin: 20px;
+	text-align: justify;
+}
+.node-teaser a {
+	font-weight: 600;	
+	line-height:1.125em;/* 20px/18=1.125em */	
+	color: #ffffff;	
+	text-align: center;
+}	
+.node-teaser header a {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.node-teaser .field-name-body a {
+	color: #428bca;	
+}	
+.node-teaser a:hover, a:focus {
+	color: #ffffff;	
+}		
+	
+.comment-add  a, .node-readmore  a {
+	color: #428bca;		
+}	
+.node-readmore a:hover, a:focus {
+	color: #333399;	
+}		
+.comment-add  a:hover, a:focus {
+	color: #333399;	
+}		
+
+.teaser-submitted a {
+	color: #428bca;		
+}	
+
+.teaser-submitted  a:hover, a:focus {
+	color: #333399;	
+}	
+
+.teaser-submitted {
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;/* 16px/16=1em */
+	color: #333333;
+	position: relative;
+	top:80px;	
+}
+	
+/*end node teaser css */	
+
+	
+/* Mission statement css */
+		
+.callout-header {
+	z-index:2;	
+	text-align:center;
+	font-family:'Open Sans Condensed', sans-serif;
+	font-weight:700;
+	line-height:1.875em;/* 30px/16=1.875em */
+	font-size:1.875em;/* 30px/16=1.875em */
+	letter-spacing:0.01em;
+	color: #f1f1f1;
+}
+
+.callout-p {
+	font-family:'Open Sans Condensed', sans-serif;
+	position: relative;
+	z-index:2;	
+	font-size:0.875em; /* 14px/16=0.875em */
+	color: #ffffff;
+	line-height: 1.2em;
+	margin: 20px;
+	text-align: justify;
+}
+	
+.callout-img  img{
+	position:relative;
+	z-index:1;
+	/*top:-200px; */
+	width: 100%;
+	max-width: 100%;  
+	height: auto;
+}
+
+/* End mission statement css */
+
+/*header css */	
+.header-logo{
+	border-style:none !important;
+}
+
+.header-logo img{
+	width: 100%;
+	max-width: 100%;  
+	height: auto;
+	padding-top:10px;	
+	padding-bottom:40px;
+}
+
+	
+/*end header css */	
+	
+/*footer css */	
+
+.footer{
+	border-style:none;
+	position:relative; 
+	background-color: #f1f1f1;
+	width: 100%;
+	max-width: 100%;
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+.view-content img{
+	position:relative; 
+	margin-right:12px;
+}	
+
+.cols-8 {
+	margin-left:25%;
+	margin-right:auto;
+}
+/*end footer css */	
+
+/* taxonomy tags css*/
+.field-type-taxonomy-term-reference {
+	display:inline;
+	visibility:hidden;
+	padding-left:20px;	
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.125em; /* 18px/16=1.125em */
+	line-height: 1.2em;
+	color: #85794d;
+}
+
+
+.field-type-taxonomy-term-reference .field-label {
+	color: #333333;
+	padding-top:64px;
+	padding-left:20px;
+	padding-right:10px;	
+}
+
+.field-type-taxonomy-term-reference .field-items {
+	position: relative;
+	padding-top:64px;
+}
+
+.page-content .field-type-text-with-summary {
+	position: relative;
+	padding-top:60px;
+	-webkit-padding-before:0px;
+}
+
+/* end taxonomy tags css*/
+
+
+.view-taxonomy-term {
+	position:relative; 
+	top:52px;
+}
+
+
+/* About project block css*/
+.view-about-the-project-view .views-field-title, .block-title {
+	text-align:left;
+	background-color: #33b4d7;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1.625em; /* 26px/16=1.625em */
+	line-height:1.875em;/* 30px/16=1.875em */	
+	letter-spacing:0.1em;
+	color: #ffffff;	
+}
+
+.view-about-the-project-view p {
+	padding-left: 5px;	
+	margin-bottom: 10px;
+	color: #000000;		
+}
+/* End about project block css*/
+
+
+/* Social media services block css*/
+.service-label {
+	float:left;
+	padding-left:20px;
+	padding-right:10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.125em; /* 18px/16=1.125em */
+	font-weight:bold;
+	line-height: 1.2em;
+	color: #333333;
+}
+
+.service-links  li {
+	float:left;
+	margin-right:10px;
+	list-style-type:none;
+}
+/* End social media services block css*/
+
+
+/* ---------------------------- */
+/* media queries */
+/* ---------------------------- */
+
+/* All Smartphones in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.region-sidebar-second {
+		margin: 40px 0px 10px 0px;	 
+	}
+	.node-teaser h2 {	
+		font-size:1.25em;/* 20px/16=1.25em */
+	}	
+	.teaser-submitted {
+		font-size:1em;/* 16px/16=1em */
+		top:80px;	
+	}	
+	.region-sidebar-second .field-content img {
+		width:70%;
+		max-width: 70%;  	
+	}	
+	.navbar-btn  img{
+		margin-top:2px;
+		margin-bottom:2px;
+		width:225px; 
+	}	
+	.cols-8 {
+		margin-left:0px;
+		margin-right:auto;
+	}	
+	h1{
+		font-size:1.250em; /* 20px/16=1.250em */
+	}	
+	.field-type-taxonomy-term-reference .field-label {
+		padding-top:0px;
+	}
+	.field-type-taxonomy-term-reference .field-items {
+		position: relative;
+		padding-top:0px;
+	}
+	.page-content .field-type-text-with-summary {
+		position: relative;
+		padding-top:40px;
+	}	
+}
+
+/* All Smartphones in landscape ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* All Smartphones in portrait ----------- */
+@media only screen 
+and (max-width : 479px) {
+/* YOUR STYLE GOES HERE */
+}
+
+/***** ANDROID DEVICES *****/
+
+/* Android 240 X 320 ----------- */
+@media only screen
+and (max-width: 241px){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Android(Samsung Galaxy) in portrait 380 X 685 ----------- */
+@media only screen
+and (min-width: 375px)
+and (max-width: 385px){
+/* YOUR STYLE GOES HERE */
+}
+
+@media only screen and (width : 600px) and (orientation: portrait) {
+	.region-sidebar-second {
+		margin: 100px 0px 10px 0px;	 
+	}
+	.region-sidebar-second .field-content img {
+		width:50%;
+		max-width: 50%;  	
+	}	
+	.teaser-submitted {
+		top:100px;	
+	}		
+}
+
+/* Android(Samsung Galaxy) in Landscape 685 X  380 ----------- */
+@media only screen
+and (min-width: 680px)
+and (max-width: 690px){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Kindle Portrait 600 X 1024 ----------- */
+@media only screen
+and (min-width: 595px)
+and (max-width: 610px){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Kindle Landscape 1024 X 600 ----------- */
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1030px){
+/* YOUR STYLE GOES HERE */
+}
+
+/***** ALL GENERATION IPADS *****/
+
+/* iPads in portrait and landscape----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* YOUR STYLE GOES HERE */  
+}
+
+/* iPad in landscape----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* YOUR STYLE GOES HERE */
+}
+
+/* iPad in portrait----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait){
+/* YOUR STYLE GOES HERE */
+}
+
+
+
+/***** Retina IPAD 3 & 4*****/
+
+/* Retina iPad 3 & 4 in portrait and landscape----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2){
+/* YOUR STYLE GOES HERE */
+}
+
+
+/***** IPAD 1 & 2 (ALSO IPAD MINI)*****/
+
+/* iPad 1 & 2 in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1){
+/* YOUR STYLE GOES HERE */
+}
+
+/* iPad 1 & 2 in landscape ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+/* YOUR STYLE GOES HERE */
+}
+
+/* iPad 1 & 2 in portrait ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+and (-webkit-min-device-pixel-ratio: 1){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* YOUR STYLE GOES HERE */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* YOUR STYLE GOES HERE */
+}
+
+/* Only iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* YOUR STYLE GOES HERE */
+}

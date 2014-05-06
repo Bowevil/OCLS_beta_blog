@@ -1,0 +1,17 @@
+
+name = Dingus
+description = A clean, simple, and classic look. 
+version = VERSION
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = dingus.css
+stylesheets[only screen and (max-width : 400px)][] = small.css
+stylesheets[only screen and (min-width : 401px) and (max-width : 1024px)][] = medium.css
+stylesheets[only screen and (min-width : 1025px)][] = large.css
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "dingus"
+datestamp = "1380569595"
+
