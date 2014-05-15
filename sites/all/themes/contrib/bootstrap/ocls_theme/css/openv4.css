@@ -1,6 +1,7 @@
 h1{
+	padding:0px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size:2.000em; /* 32px/16=2.000em */
+	font-size:1.875em; /* 30px/16=1.875em */
 	font-weight:600;
 	letter-spacing:0.05em;
 	color: #ffffff;	
@@ -8,8 +9,9 @@ h1{
 }
 
 h2 {
+	padding:0px;
 	font-family: 'Open Sans', sans-serif;
-	font-size:1.87em; /* 30px/16=1.875em */
+	font-size:1.875em; /* 30px/16=1.875em */
 	font-weight:600;
 	letter-spacing:0.05em;
 	color: #000000
@@ -62,11 +64,7 @@ a:hover, a:focus {
 	height: auto;	
 }
 
-.region-sidebar-second .field-content p {
-	/* font-size:1.125em; */ /* 1px/16=1.125emem */
-}
 /*Sidebar second region css */	
-	
 	
 .region-view-all-posts {
 	float:right;
@@ -107,7 +105,7 @@ a:hover, a:focus {
 }	
 	
 #navbar .leaf .active {
- color: #ffffff;	
+	color: #ffffff;	
 }
 	
 .navbar-header {
@@ -115,14 +113,19 @@ a:hover, a:focus {
 }	
 
 /*End top navigation css */	
-			
+				
+.nav-tabs{
+	position: relative;
+	top:-80px;
+	z-index:1;
+}
 	
 /*node css */		
 	
 .page-header {
 	position:relative;
-	top:39px;
-	padding: 10px 0 10px 0;
+	top:40px;
+	padding: 5px 0 10px 0;
 	background-color: #33b4d7;		
 }	
 	
@@ -130,7 +133,6 @@ a:hover, a:focus {
 	font-size:1.2em;
 	color: #333333;
 	line-height: 1.5em;
-	margin: 20px;
 	text-align: justify;
 }	
 
@@ -141,12 +143,11 @@ a:hover, a:focus {
 .node-article  {
 	text-align: center;
 	position: relative;
-	top:-52px;
+	top:-44px;
 	height:100%;	
 	border: 1px solid #e0e0e0;	
 	border-radius: 6px;
 	background: rgba(0, 0, 0, 0.04);
-	padding: 15px 0 10px 0;
 }	
 
 .node-article .field ul,
@@ -159,17 +160,23 @@ a:hover, a:focus {
 	font-size:1em;/* 16px/16=1em */
 	color: #333333;
 	position: relative;
-	top:80px;	
-	padding-bottom:20px;
-	-webkit-padding-after: 0px;
+	top:76px;	
+}
+
+
+.page-content .field-type-text-with-summary {
+	position: relative;
+	padding-top:86px;
+	margin:0px 20px 10px 20px;
+
 }
 
 /*end node css */	
 	
 	
- .view-all-posts {
+ .view-all-posts, .view-id-taxonomy_term {
 	position: relative;
-	top:52px
+	top:64px;
 } 
 	
 /*node teaser css */	
@@ -181,14 +188,12 @@ a:hover, a:focus {
 	border: 1px solid #e0e0e0;	
 	border-radius: 6px;
 	background: rgba(0, 0, 0, 0.04);
-	padding: 15px 0 10px 0;
-	margin: 20px 0 20px 0;
+	margin-bottom: 20px;
 }
 
 .node-teaser img {
 	display:none;
 	position: relative;
-	top:-115px;
 	z-index: 2;
 	margin: auto;
 	width: 73px;
@@ -201,9 +206,9 @@ a:hover, a:focus {
 
 .node-teaser h2 {
 	position:relative;
-	top:-36px;
+	top:-20px;
 	background-color: #33b4d7;
-	padding: 10px 0 10px 0;
+	padding: 5px 0 10px 0;
 }
 .node-teaser h2:hover {
 	background-color: #6fcde2;
@@ -211,11 +216,10 @@ a:hover, a:focus {
 
 .node-teaser .field-items p {
 	position:relative;
-	top:10px;
 	font-size:1.2em;
 	color: #333333;
 	line-height: 1.5em;
-	margin: 20px;
+	margin:20px 20px 10px 20px;
 	text-align: justify;
 }
 .node-teaser a {
@@ -257,9 +261,10 @@ a:hover, a:focus {
 	font-size:1em;/* 16px/16=1em */
 	color: #333333;
 	position: relative;
-	top:80px;	
+	top:75px;
 }
 	
+
 /*end node teaser css */	
 
 	
@@ -283,14 +288,12 @@ a:hover, a:focus {
 	font-size:0.875em; /* 14px/16=0.875em */
 	color: #ffffff;
 	line-height: 1.2em;
-	margin: 20px;
 	text-align: justify;
 }
 	
 .callout-img  img{
 	position:relative;
 	z-index:1;
-	/*top:-200px; */
 	width: 100%;
 	max-width: 100%;  
 	height: auto;
@@ -335,36 +338,21 @@ a:hover, a:focus {
 	margin-left:25%;
 	margin-right:auto;
 }
+
 /*end footer css */	
 
 /* taxonomy tags css*/
+
+/* note to self need to move tags below body in content type -> manage display */
+
 .field-type-taxonomy-term-reference {
-	display:inline;
-	visibility:hidden;
-	padding-left:20px;	
 	font-family: 'Open Sans', sans-serif;
 	font-size:1.125em; /* 18px/16=1.125em */
 	line-height: 1.2em;
-	color: #85794d;
 }
-
 
 .field-type-taxonomy-term-reference .field-label {
-	color: #333333;
-	padding-top:64px;
-	padding-left:20px;
-	padding-right:10px;	
-}
-
-.field-type-taxonomy-term-reference .field-items {
-	position: relative;
-	padding-top:64px;
-}
-
-.page-content .field-type-text-with-summary {
-	position: relative;
-	padding-top:60px;
-	-webkit-padding-before:0px;
+	margin:0px 5px 10px 20px;
 }
 
 /* end taxonomy tags css*/
@@ -372,7 +360,6 @@ a:hover, a:focus {
 
 .view-taxonomy-term {
 	position:relative; 
-	top:52px;
 }
 
 
@@ -402,6 +389,7 @@ a:hover, a:focus {
 	float:left;
 	padding-left:20px;
 	padding-right:10px;
+	margin-bottom:20px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:1.125em; /* 18px/16=1.125em */
 	font-weight:bold;
